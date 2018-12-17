@@ -1,0 +1,8 @@
+version: "2"
+services:
+  otp:
+    build:
+      context: ./
+    image: kumano/otp:0.1
+    ports:
+      - 8080:8080
