@@ -10,7 +10,7 @@ RUN cd /root && \
     cd otp && \
     wget "https://repo1.maven.org/maven2/org/opentripplanner/otp/1.3.0/otp-1.3.0-shaded.jar" && \
     wget "http://www3.unobus.co.jp/opendata/GTFS-2018-04-15.zip" -O unobus.gtfs.zip && \
-    wget "http://www.shimoden.net/busmada/opendata/GTFS_JP.zip" -O shimodenbus.gtfs.zip && \
+    wget "http://www.shimoden.net/busmada/opendata/GTFS-JP.zip" -O shimodenbus.gtfs.zip && \
     wget "http://loc.bus-vision.jp/gtfs/ryobi/gtfsFeed" -O ryobibus.gtfs.zip && \
     wget "http://loc.bus-vision.jp/gtfs/okaden/gtfsFeed" -O okadenbus.gtfs.zip && \
     wget "http://loc.bus-vision.jp/gtfs/chutetsu/gtfsFeed" -O chutetsubus.gtfs.zip
